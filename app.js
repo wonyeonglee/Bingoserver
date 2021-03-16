@@ -32,8 +32,8 @@ app.post("/api/v1/auth/google", async (req, res) => {
   //   update: { name, picture },
   //   create: { name, email, picture }
   // })
-  //res.status(201)
-  // res.json(user)
+  res.status(201)
+  res.json(ticket)
 
 })
 app.listen(port, () => {
